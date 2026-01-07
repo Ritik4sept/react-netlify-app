@@ -1,0 +1,728 @@
+ html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/* Navbar */
+.navbar {
+  background: #ffffff;
+}
+
+/* Nav Links */
+.navbar-nav .nav-link {
+  font-size: 13px;
+  padding: 6px 10px;
+  color: #636567 !important;
+  font-weight: 500;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* Hover & Active */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active-nav-link {
+  color: #f58220 !important;
+}
+
+/* Underline effect */
+.navbar-nav .nav-link.active-nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 2px;
+  background-color: #f58220;
+}
+
+/* Sections */
+section {
+  /* padding-top: 50px; */
+  padding-bottom: 50px;
+}
+
+.section-title {
+  font-weight: 700;
+  color: #f57824;
+}
+
+/* Hero */
+#hero {
+  min-height: 100vh;
+  background: url("/public/assets/human-ai-touch-connection-technology-innovation.jpg") right center / cover no-repeat;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+ /* Feature Cards */
+  .feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #456282;
+    color: #fff;
+   }
+
+ .feature-card:hover {
+   transform: translateY(-8px);
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+   background-color: #f57824;
+  }
+
+ .text-primary {
+   --bs-text-opacity: 1;
+   color: #4db749 !important;
+  }
+
+
+ /* Learn Section */
+        #learn {
+            background: #ffffff;
+        }
+
+        .learn-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 16px;
+            margin-bottom: 16px;
+            border-radius: 12px;
+            background: #6e6e6e;
+            transition: all 0.3s ease;
+            color: #ffff;
+        }
+
+        .learn-item:hover {
+            background: #f58220;
+            transform: translateX(6px);
+        }
+
+        .learn-item i {
+            font-size: 28px;
+            color: #4db749;
+            flex-shrink: 0;
+        }
+
+        .learn-item h6 {
+            margin: 0;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .learn-item p {
+            margin: 4px 0 0;
+            font-size: 0.95rem;
+            color: #ffffff;
+        }
+
+/* Impact Cards Hover */
+.impact-box {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 14px;
+  transition: all 0.3s ease;
+}
+
+.impact-box h2 {
+  color: #456282; /* Default blue */
+  transition: color 0.3s ease;
+}
+
+/* Hover Effect */
+.impact-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.impact-box:hover h2 {
+  color: #0d6efd; /* Bootstrap primary blue */
+}
+
+
+/* Reward */
+.reward-box { 
+  background: #ffffff; 
+  padding: 30px 20px; 
+  border-radius: 14px; 
+  border: 1px solid #456282; 
+  text-align: center; 
+  height: 100%; 
+  transition: all 0.3s ease;
+ }
+
+ .reward-box i { 
+  font-size: 36px; 
+  color: #0dae4d; 
+  margin-bottom: 12px; 
+}
+
+.reward-box h6 { 
+  font-weight: 600; 
+  margin-bottom: 6px; 
+  color: #222; 
+}
+
+.reward-box p { 
+  font-size: 14px; 
+  color: #555; 
+  margin: 0; 
+}
+
+.reward-box:hover { 
+  background: #456282; 
+  transform: translateY(-6px); 
+}
+
+.reward-box:hover i, 
+.reward-box:hover h6, 
+.reward-box:hover p { 
+  color: #ffffff; 
+}
+
+.reward-note { 
+  font-size: 18px; 
+  font-weight: 600; 
+  color: #555; 
+}
+
+
+/* Footer */
+footer {
+background: #0b1c2d;
+color: #fff;
+padding: 30px 0;
+ } 
+
+ .padding{
+  padding-top: 80px;
+  padding-bottom: 80px;
+ }
+
+
+
+
+
+ /* SECTION PURPOSE */
+
+ .heading_h1{
+  font-size: px;
+    text-transform: capitalize;
+    margin-bottom: 3.5rem;
+    line-height: 1.3 !important;
+    font-weight: 300 !important;
+    color: #f67823 !important;
+}
+
+.headingh_h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3 !important;
+    color: #456182 !important;
+    text-transform: sentences;
+    margin-bottom: 1rem;
+}
+
+.heading_h3{
+  font-size: px;
+    text-transform: capitalize;
+    margin-bottom: 3.5rem;
+    line-height: 1.3 !important;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+}
+
+.paragraph {
+    font-size: 20px;
+    line-height: 1.5rem !important;
+    color: #727272;
+    margin-bottom: 0rem;
+    font-weight: 400;
+}
+.purpose-section {
+  background-color: #e5e5e6 ;
+  padding: 80px 0;
+}
+
+.purpose-subtitle {
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+.purpose-card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.purpose-card:hover {
+  background: #f58220;
+  transform: translateX(6px);
+  
+}
+
+
+.purpose-card:hover h4,
+.purpose-card:hover p,
+.purpose-card:hover li {
+  color: #ffffff;
+}
+
+
+.purpose-list {
+  padding-left: 1.2rem;
+  line-height: 1.9;
+}
+
+
+.purpose-image {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+/* LEARNING */
+
+ .persona-badge {
+  /* border: 1px solid #5a6df0;
+  color: #5a6df0; */
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Card */
+.persona-card {
+  background: #e5e5e6;
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  transition: all 0.3s ease;
+}
+
+
+.persona-card:hover {
+  background: #f58220;
+  transform: translateX(6px);
+}
+
+
+.persona-card:hover h5,
+.persona-card:hover p {
+  color: #ffffff !important;
+}
+
+
+
+.persona-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+
+.persona-desc {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+
+
+
+
+
+ /* THREE LAYERED */
+.delivery-badge {
+  /* border: 1px solid #6c63ff; */
+  /* color: #6c63ff; */
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+.delivery-card {
+  background: #e5e5e6;
+  border-radius: 12px;
+  padding: 24px;
+  height: 100%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+
+.delivery-card:hover {
+  background: #f58220;
+  transform: translateX(6px);
+}
+
+
+.icon-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #f67823;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-bottom: 16px;
+  transition: background 0.3s ease;
+}
+
+
+.delivery-card:hover .icon-circle {
+  background: #ffffff;
+  color: #f58220;
+}
+
+
+.delivery-card h5 {
+  font-weight: 700;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.delivery-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+
+.delivery-card:hover h5,
+.delivery-card:hover p {
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+ /* WHY Section Cards */
+.why-card {
+  background: #e5e5e6;
+  border: 1px solid #c4cee9;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+
+.why-card:hover {
+  background: #f58220;
+  transform: translateX(6px);
+}
+
+/* Text color on hover */
+.why-card h5 {
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.why-card p {
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.why-card:hover h5,
+.why-card:hover p {
+  color: #ffffff;
+}
+
+
+
+/* Timeline Section */
+.timeline-section {
+  background: #e5e5e6;
+  padding: 80px 0;
+}
+
+.timeline-tag {
+  display: inline-block;
+  /* background: #e6ebff; */
+  /* color: #3f5bd8; */
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.timeline-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.timeline-subtitle {
+  color: #555;
+  max-width: 520px;
+  margin-bottom: 40px;
+}
+
+
+.timeline-wrapper {
+  position: relative;
+}
+
+.timeline-item {
+  display: flex;
+  position: relative;
+  padding-left: 50px;
+  margin-bottom: 40px;
+}
+
+.timeline-number {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 34px;
+  height: 34px;
+  background: #f58220;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 16px;
+  top: 34px;
+  width: 2px;
+  height: 100%;
+  background: #f67823;
+}
+
+.timeline-content h5 {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.timeline-content p {
+  color: #555;
+  margin: 0;
+}
+
+
+
+
+  /* GOVERNANCE SECTION */
+.governance-tag {
+  /* border: 1px solid #3f5bd8;
+  color: #3f5bd8; */
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+#leadership p {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.governance-list {
+  padding-left: 18px;
+}
+
+.governance-list li {
+  margin-bottom: 8px;
+  color: #444;
+}
+
+
+
+  /* ENGAGEMENT SECTION */
+.engagement-tag {
+  /* background: #dfe6fb;
+  color: #3f5bd8; */
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+/* CARD */
+.engagement-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 30px 22px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.engagement-card:hover {
+  background: #f58220;
+  transform: translateY(-6px);
+}
+
+.engagement-card:hover h5,
+.engagement-card:hover p,
+.engagement-card:hover i {
+  color: #ffffff !important;
+}
+
+/* ICON */
+.engagement-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  background: #f67823;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.engagement-icon i {
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.engagement-card:hover .engagement-icon {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+
+
+
+ 
+
+/* MEASUREMENT SECTION */
+
+.section-before-measurement {
+  padding-bottom: 140px; 
+}
+
+
+.measurement-section {
+  background-color: #476182;
+  color: #ffffff;
+  padding: 140px 0 100px; 
+  position: relative;
+  z-index: 1;
+}
+
+
+.measurement-title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.evaluation-title {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+
+.metric-value {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.metric-title {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.metric-text {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+
+.eval-heading {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.eval-list {
+  padding-left: 18px;
+}
+
+.eval-list li {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+
+
+/* LAST SECTION */
+.hero-section {
+  background: #e5e5e6 ;
+  padding: 100px 0 80px;
+  text-align: center;   
+}
+
+.hero-title {
+  font-size: 52px;
+  font-weight: 800;
+  color: #111;
+  max-width: 900px;
+  margin: 0 auto;       
+}
+
+.hero-subtitle {
+  margin: 16px auto 0;
+  font-size: 16px;
+  color: #555;
+  max-width: 800px;
+}
+
+
+.hero-actions {
+  margin-top: 30px;
+  display: flex;
+  gap: 16px;
+}
+
+.hero-actions .btn {
+  padding: 10px 22px;
+  font-weight: 600;
+}
+
+.hero-info-card {
+  margin: 30px auto;   
+  /* background: #cfd9ff; */
+  border-radius: 8px;
+  padding: 16px 20px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  max-width: 900px;
+}
+
+
+.hero-info-card p {
+  margin: 0;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+  
