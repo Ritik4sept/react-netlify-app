@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg fixed-top shadow bg-white">
       <div className="container">
         <a className="navbar-brand" href="#hero">
-          <img src="/public/assets/logo.png" width={200} alt="AIKSHAM" />
+          <img src="/assets/logo.png" width={200} alt="AIKSHAM" />
         </a>
 
         <button

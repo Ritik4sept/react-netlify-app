@@ -13,7 +13,7 @@ const Three: React.FC = () => {
           {/* LEFT IMAGE */}
           <div className="col-lg-5 mb-4">
             <img
-              src="/public/assets/three-women-working-together.jpg"
+              src="/assets/three-women-working-together.jpg"
               alt="Delivery Model"
               className="img-fluid rounded"
             />

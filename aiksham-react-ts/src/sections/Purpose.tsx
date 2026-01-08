@@ -46,7 +46,7 @@ const Purpose: React.FC = () => {
           {/* RIGHT SIDE – IMAGE */}
           <div className="col-md-6 text-center">
             <img
-              src="/public/assets/business-person-looking-finance-graphs.jpg"
+              src="/assets/business-person-looking-finance-graphs.jpg"
               alt="AI Impact"
               className="img-fluid rounded purpose-image"
             />

@@ -6,28 +6,28 @@ const personas = [
     desc: `Senior Leaders, HODs (CG2 & CG1). Focus on AI strategy,
     governance, and scaling adoption. 15–20 hours including
     leadership workshops.`,
-    img: "/public/assets/leader.avif",
+    img: "/assets/leader.avif",
   },
   {
     title: "AI Practitioner",
     desc: `Middle Management, Section Heads (CG3). Hands-on AI
     analytics and plant system integration. 20–30 hours
     with instructor-led sessions.`,
-    img: "/public/assets/Practitioner.avif",
+    img: "/assets/Practitioner.avif",
   },
   {
     title: "AI-Aware Supervisor",
     desc: `Entry level supervisors (CG4). AI literacy and exposure
     to AI-driven systems. 20–30 hours including productivity
     series.`,
-    img: "/public/assets/Supervisor.avif",
+    img: "/assets/Supervisor.avif",
   },
   {
     title: "AI-Enabled Engineer",
     desc: `Graduate Engineer Trainees & MTs. Full AI skill stack
     with capstone projects. 50–70 hours including sandbox
     and mentorship.`,
-    img: "/public/assets/Engineer.png",
+    img: "/assets/Engineer.png",
   },
 ];
 

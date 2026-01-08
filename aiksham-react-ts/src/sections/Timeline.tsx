@@ -69,7 +69,7 @@ const Timeline: React.FC = () => {
           {/* RIGHT IMAGE */}
           <div className="col-md-6">
             <img
-              src="/public/assets/appointment-agenda-reminder-personal-organizer-calendar-concept.jpg"
+              src="/assets/appointment-agenda-reminder-personal-organizer-calendar-concept.jpg"
               alt="Timeline"
               className="img-fluid rounded timeline-image"
             />
